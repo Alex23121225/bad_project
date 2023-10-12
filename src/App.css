@@ -1,0 +1,58 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+.card {
+  display: flex;
+  background-color: #3C3E43;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 5px;
+}
+
+.image {
+  border-radius: 120px;
+  margin-right: 10px;
+}
+
+.image_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.card:hover {
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.selected {
+  color: #3C3E43;
+}
+
+.wrapper2 {
+  display: flex;
+  align-items: flex-start;
+}
